@@ -38,7 +38,7 @@ disp(' ')
 disp('***********************************')
 disp('TEST CASE 1: NO HAZARDS (EVEN PIPE)')
 disp('***********************************')
-TestBenchEval('Case1_NoHazards.txt','-printEven','-32bit')
+TestBenchEval('Script1_NoHazards.txt','-printEven','-32bit')
 diary off
 
 diary([testid '_Results_Case1_NoHazards_OddPipe.txt'])
@@ -46,7 +46,7 @@ disp(' ')
 disp('**********************************')
 disp('TEST CASE 1: NO HAZARDS (ODD PIPE) ')
 disp('**********************************')
-TestBenchEval('Case1_NoHazards.txt','-printOdd','-32bit')
+TestBenchEval('Script1_NoHazards.txt','-printOdd','-32bit')
 diary off
 
 %% CASE 2: Structural Hazards
@@ -56,7 +56,7 @@ disp(' ')
 disp('*******************************************')
 disp('TEST CASE 2: STRUCTURAL HAZARDS (EVEN PIPE)')
 disp('*******************************************')
-TestBenchEval('Case2_StructuralHazards.txt','-printEven','-32bit')
+TestBenchEval('Script2_StructuralHazards.txt','-printEven','-32bit')
 diary off
 
 diary([testid '_Results_Case2_StructuralHazards_OddPipe.txt'])
@@ -64,7 +64,7 @@ disp(' ')
 disp('******************************************')
 disp('TEST CASE 2: STRUCTURAL HAZARDS (ODD PIPE)')
 disp('******************************************')
-TestBenchEval('Case2_StructuralHazards.txt','-printOdd','-32bit')
+TestBenchEval('Script2_StructuralHazards.txt','-printOdd','-32bit')
 diary off
 
 %% CASE 3-1: Data Hazards (No Stalls)
@@ -74,7 +74,7 @@ disp(' ')
 disp('*************************************************')
 disp('TEST CASE 3: DATA HAZARDS - NO STALLS (EVEN PIPE)')
 disp('*************************************************')
-TestBenchEval('Case3_DataHazards1.txt','-printEven','-32bit')
+TestBenchEval('Script3_DataHazards1.txt','-printEven','-32bit')
 diary off
 
 diary([testid '_Results_Case3_DataHazards_NoStalls_OddPipe.txt'])
@@ -82,7 +82,7 @@ disp(' ')
 disp('************************************************')
 disp('TEST CASE 3: DATA HAZARDS - NO STALLS (ODD PIPE)')
 disp('************************************************')
-TestBenchEval('Case3_DataHazards1.txt','-printOdd','-32bit')
+TestBenchEval('Script3_DataHazards1.txt','-printOdd','-32bit')
 diary off
 
 %% CASE 3-2: Data Hazards (With Stalls)
@@ -92,7 +92,7 @@ disp(' ')
 disp('***************************************************')
 disp('TEST CASE 3: DATA HAZARDS - WITH STALLS (EVEN PIPE)')
 disp('***************************************************')
-TestBenchEval('Case3_DataHazards2.txt','-printEven','-32bit')
+TestBenchEval('Script3_DataHazards2.txt','-printEven','-32bit')
 diary off
 
 diary([testid '_Results_Case3_DataHazards_WithStalls_OddPipe.txt'])
@@ -100,7 +100,7 @@ disp(' ')
 disp('***************************************************')
 disp('TEST CASE 3: DATA HAZARDS - WITH STALLS (ODD PIPE)')
 disp('***************************************************')
-TestBenchEval('Case3_DataHazards2.txt','-printOdd','-32bit')
+TestBenchEval('Script3_DataHazards2.txt','-printOdd','-32bit')
 diary off
 
 %% CASE 4: Control Hazards
@@ -110,7 +110,7 @@ disp(' ')
 disp('****************************************')
 disp('TEST CASE 4: CONTROL HAZARDS (EVEN PIPE)')
 disp('****************************************')
-TestBenchEval('Case4_ControlHazards.txt','-printEven','-32bit')
+TestBenchEval('Script4_ControlHazards.txt','-printEven','-32bit')
 diary off
 
 diary([testid '_Results_Case4_ControlHazards_OddPipe.txt'])
@@ -118,7 +118,7 @@ disp(' ')
 disp('***************************************')
 disp('TEST CASE 4: CONTROL HAZARDS (ODD PIPE)')
 disp('***************************************')
-TestBenchEval('Case4_ControlHazards.txt','-printOdd','-32bit')
+TestBenchEval('Script4_ControlHazards.txt','-printOdd','-32bit')
 diary off
 
 %% CASE 5: Matrix Multiply
@@ -128,7 +128,7 @@ disp(' ')
 disp('********************************************')
 disp('TEST CASE 5: 2x2 MATRIX MULTIPLY (EVEN PIPE)')
 disp('********************************************')
-TestBenchEval('Case5_MatrixMultiply.txt','-printEven','-64bit')
+TestBenchEval('Script5_MatrixMultiply.txt','-printEven','-64bit')
 diary off
 
 diary([testid '_Results_Case5_MatrixMultiply_OddPipe.txt'])
@@ -136,7 +136,7 @@ disp(' ')
 disp('*******************************************')
 disp('TEST CASE 5: 2x2 MATRIX MULTIPLY (ODD PIPE)')
 disp('*******************************************')
-TestBenchEval('Case5_MatrixMultiply.txt','-printOdd','-64bit')
+TestBenchEval('Script5_MatrixMultiply.txt','-printOdd','-64bit')
 diary off
 
 
