@@ -1,0 +1,9 @@
+a 16,2,3
+ai 17,1,-400
+shlqby 18,13,1
+rotqby 19,14,3
+shlqby 20,13,1
+sf 21,3,2
+sfi 22,1,-100
+rotqby 22,14,3
+halt

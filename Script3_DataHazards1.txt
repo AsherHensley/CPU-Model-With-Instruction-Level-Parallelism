@@ -1,0 +1,76 @@
+cntb 15,3
+lnop
+nop
+lnop
+nop
+lnop
+nop
+lnop
+nop
+lnop
+nop
+lnop
+nop
+stqa 15,99
+avgb 16,3,4
+lqa 17,99
+nop
+lnop
+nop
+lnop
+nop
+lnop
+nop
+lnop
+nop
+lnop
+nop
+lnop
+nop
+lnop
+a 15,16,17
+lnop
+nop
+lnop
+nop
+lnop
+nop
+lnop
+mpy 15,15,5
+lnop
+nop
+lnop
+nop
+lnop
+nop
+lnop
+nop
+lnop
+nop
+lnop
+nop
+lnop
+nop
+lnop
+nop
+lnop
+nop
+stqa 15,99
+nop
+lqa 18,99
+nop
+lnop
+nop
+lnop
+nop
+lnop
+nop
+lnop
+nop
+lnop
+nop
+lnop
+nop
+lnop
+a 19,18,5
+halt

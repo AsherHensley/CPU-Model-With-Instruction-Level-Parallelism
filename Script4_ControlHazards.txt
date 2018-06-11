@@ -1,0 +1,22 @@
+shlqby 15,13,1
+shlqby 16,13,1
+shlqby 17,13,1
+shlqby 18,13,1
+a 19,4,5
+stqa 19,99
+brnz 19,9
+a 20,1,5
+stqa 20,99
+a 21,0,5
+shlqby 22,13,2
+a 23,0,5
+shlqby 24,13,2
+a 25,0,5
+shlqby 26,13,2
+lqa 27,99
+brz 27,-1
+shlqby 28,13,2
+a 29,6,5
+a 30,6,5
+shlqby 31,13,2
+halt
